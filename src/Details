@@ -1,0 +1,25 @@
+1) On start should appear window with command line
+    commands:
+        quit,
+        help,
+        open (file name),
+        save (without params - same file name),
+        add (vertex),
+        remove (vertex),
+        update (vertex),
+        draw - draw graph
+        show data (matrix of incidenses), or other
+
+2) Intellisence
+
+ - on tab or start printing it should show first 5 possible lines -> on next symbol filter -> key down & enter - choose this
+ - in case of incorrect input - error
+
+ first command
+    quit, help, open (filename), new (filename)
+    open -> filename not exist, other error during access the file
+    new -> such file already exist
+    new -> add, remove, update vertices & type of them
+        -> type of matrix
+    draw -> draw grapth
+    print -> & type of data  - matrix, edjes, vert & incidences...
